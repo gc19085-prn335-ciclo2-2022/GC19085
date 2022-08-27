@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+    <head>
+        <title>Inicio</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    </head>
+    <form action="BolsaTrabajoServlet" method="post">
+        <div align="center" >
+        <h1>Bolsa de trabajo</h1>
+    <table style="width: 100px">
+        <tr>
+            <td>Id_persona:</td>
+            <td><input type="text" name="id_persona"/></td>
+        </tr>
+         <tr>
+            <td>Nombre:</td>
+            <td><input type="text" name="nombres"/></td>
+        </tr>
+         <tr>
+            <td>Apellido:</td>
+            <td><input type="text" name="apellidos"/></td>
+        </tr>
+         <tr>
+            <td>Genero:</td>
+            <td><input type="text" name="genero"/></td>
+        </tr>
+         <tr>
+            <td>Fecha Nacimiento:</td>
+            <td><input type="date"  name="fecha_nacimiento"/></td>
+        </tr>
+        <tr>
+            <td>Capacidades especiales:</td>
+            <td><input type="text" name="CapacidadesEspeciales"/></td>
+        </tr>
+        <tr>
+            <td>Direccion:</td>
+            <td><input type="text" name="direccion"/></td>
+        </tr>
+        <tr>    
+        <tr>    
+            <td>Jubilado:</td>
+            <td><input type="radio" id="res_si" name="jubilado" value="si" />
+            <label for="res_si">Si</label></td>
+            <td><input type="radio" id="res_no" name="jubilado" value="no"/></td>
+           <td><label for="res_no" >No</label></td>
+        </tr>
+         <tr>
+            <td>Conocido por:</td>
+            <td><input type="text" name="conocido_por"/></td>
+         </tr>
+         <tr>
+            <td>Estado Civil:</td>
+            <td><input type="text" name="EstadoCivil"/></td>
+         </tr>
+    </table>
+            <input type="submit"  value="Añadir"/>
+        </form>
+         
+        <form action="/buscar.html" method="get">
+            <input type="submit"  value="Buscar"/>
+        </form>
+    </div>
+    
+  
+
+
+
+
+
+
+
+
+
+
+
